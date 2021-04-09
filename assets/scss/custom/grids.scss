@@ -9,7 +9,25 @@
     }
 }
 
+.previewContainer2 {
+    border-radius: 8px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 16px;
 
-.appBar {
+    img {
+
+        max-height: 500px;
+    }
+}
+
+
+.navBar {
+    display: block;
+    width: 100%;
+    height: 90px;
+    margin: auto;
     background-color: black;
+    position: fixed;
+    z-index: 3;
 }

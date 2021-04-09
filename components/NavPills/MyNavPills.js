@@ -81,10 +81,7 @@ export default function MyNavPills() {
                         <p>
                           My role: User research, user flows, information architecture, sketching, wireframing, brand development, UI design, prototyping, usability testing.
                         </p>
-                        <br />
-                        <p>
-                          <Button>View the case study</Button>
-                        </p>
+
                       </span>
                     )
                   },
@@ -102,10 +99,7 @@ export default function MyNavPills() {
                         <p>
                           My role: UX UI Design, Visual Design, Branding and Identity.
                         </p>
-                        <br />
-                        <p>
-                          View Case Study
-                        </p>
+
                       </span>
                     )
                   },
@@ -121,10 +115,7 @@ export default function MyNavPills() {
                         <p>
                           My role: User research, user flows, information architecture, sketching, wireframing, brand development, UI design, prototyping, usability testing.
                         </p>
-                        <br />
-                        <p>
-                          View Case Study
-                        </p>
+
                       </span>
                     )
                   }

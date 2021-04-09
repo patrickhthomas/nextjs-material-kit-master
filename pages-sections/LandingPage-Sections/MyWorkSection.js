@@ -38,9 +38,11 @@ export default function MyWorkSection() {
 const classes = useStyles();
   return (
 <div className="workSection">
+    
     <Paper className={classes.paper}>
-        <Grid container spacing={4} justify='center'>
         
+        <Grid container spacing={4} justify='center'>
+
           <Grid item xs={12} sm={11} md={9} lg={6} xl={3}>
             
           <MyNavPills />

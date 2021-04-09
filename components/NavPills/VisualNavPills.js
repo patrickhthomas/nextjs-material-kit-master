@@ -22,6 +22,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/pill
 import { Button } from "@material-ui/core";
 
 import MyCarousel from "components/MyCarousel.js";
+import LogoCarousel from "components/LogoCarousel.js";
 import PackageCarousel from "components/PackageCarousel.js";
 
 const useStyles = makeStyles((theme) => ({
@@ -72,27 +73,7 @@ export default function VisualNavPills() {
                     tabContent: (
                       <span>
                         <PackageCarousel />
-                        <p>
-                          Collaboratively administrate empowered markets via
-                          plug-and-play networks. Dynamically procrastinate B2C
-                          users after installed base benefits.
-                        </p>
-                        <br />
-                        <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
-                        </p>
-                        <br />
-                        <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
-                        </p>
+
                       </span>
                     )
                   },
@@ -101,20 +82,7 @@ export default function VisualNavPills() {
                     tabContent: (
                       <span>
                           <MyCarousel />
-                        <p>
-                          Efficiently unleash cross-media information without
-                          cross-media value. Quickly maximize timely
-                          deliverables for real-time schemas.
-                        </p>
-                        <br />
-                        <p>
-                          Dramatically maintain clicks-and-mortar solutions
-                          without functional solutions. Dramatically visualize
-                          customer directed convergence without revolutionary
-                          ROI. Collaboratively administrate empowered markets
-                          via plug-and-play networks. Dynamically procrastinate
-                          B2C users after installed base benefits.
-                        </p>
+                      
                       </span>
                     )
                   },
@@ -122,27 +90,8 @@ export default function VisualNavPills() {
                     tabButton: "Logos",
                     tabContent: (
                       <span>
-                        <p>
-                          Collaboratively administrate empowered markets via
-                          plug-and-play networks. Dynamically procrastinate B2C
-                          users after installed base benefits.
-                        </p>
-                        <br />
-                        <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
-                        </p>
-                        <br />
-                        <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
-                        </p>
+                        <LogoCarousel />
+                        
                       </span>
                     )
                   }
