@@ -7,7 +7,7 @@ import LocationOn from "@material-ui/icons/LocationOn";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Card from "components/Card/Card.js";
+import Card from "components/Card/CardMain.js";
 
 import image1 from "assets/img/pancakes.jpg";
 import image2 from "assets/img/kestrel.jpg";
