@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     color: infoColor,
     width: "6rem !important",
     height: "6rem !important"
-  },
+  }, 
   wrapperDiv: {
     margin: "100px auto",
     padding: "0px",
@@ -29,7 +29,9 @@ const useStyles = makeStyles({
     ...title,
     color: "#FFFFFF"
   }
-});
+},
+{index: 1}
+);
 
 export default function PageChange(props) {
   const classes = useStyles();
