@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(6),
     textAlign: 'left',
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
     elevation: '7',
     borderRadius: '24px',
     marginTop: '96px',

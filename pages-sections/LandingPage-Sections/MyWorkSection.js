@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0),
     textAlign: 'left',
     backgroundColor: 'hsla(0,0%,100%,0.0)',
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
     boxShadow: 'none',
     elevation: '7',
     borderRadius: '2px',

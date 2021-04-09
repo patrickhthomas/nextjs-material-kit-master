@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@material-ui/core/Container"
 import CardBody from 'components/Card/cardbody.js'
-import Card from 'components/Card/card.js'
+import Card from 'components/Card/CardMain.js'
 
 
 export default function Intro() {

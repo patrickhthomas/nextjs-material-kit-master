@@ -63,7 +63,7 @@ export default function ExampleScrolling() {
           <Intro />
         </DialogContent>
         <DialogActions >
-          <Button onClick={() => setScrollingModal(false)} color="secondary">
+          <Button onClick={() => setScrollingModal(false)} color="primary">
             Close
           </Button>
           <Button color="primary">Save changes</Button>
