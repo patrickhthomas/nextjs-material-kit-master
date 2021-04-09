@@ -23,6 +23,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/pill
 import { Button } from "@material-ui/core";
 import Divider from '@material-ui/core/Divider';
 
+import Case from 'components/CaseStudies/affirmative.js'
 import MyCarousel from "components/MyCarousel.js";
 
 const useStyles = makeStyles((theme) => ({
@@ -81,7 +82,7 @@ export default function MyNavPills() {
                         <p>
                           My role: User research, user flows, information architecture, sketching, wireframing, brand development, UI design, prototyping, usability testing.
                         </p>
-
+                        <Case />
                       </span>
                     )
                   },
